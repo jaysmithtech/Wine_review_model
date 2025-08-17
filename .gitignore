@@ -1,3 +1,55 @@
+# Environment and configuration files
+.env
+.env.local
+.env.*.local
 datapath.txt
-.venv
 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# API keys and secrets
+*.key
+*.pem
+secrets.json
+config.json
+
+# Model outputs and cache
+wine_transformer_model/
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Large data files (uncomment if needed)
+# *.csv
+# *.parquet
+# *.h5
+
+# Temporary files
+*.tmp
+*.temp
+*.log
